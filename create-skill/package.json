@@ -1,0 +1,28 @@
+{
+  "name": "create-skill",
+  "version": "1.0.0",
+  "description": "A skill package for writing AI agent skills",
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "references"
+  ],
+  "keywords": [
+    "ai-skill",
+    "skill-writing",
+    "agent",
+    "prompt-engineering",
+    "documentation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dharun235/ai-skills.git",
+    "directory": "create-skill"
+  },
+  "homepage": "https://github.com/Dharun235/ai-skills/tree/main/create-skill",
+  "publishConfig": {
+    "access": "public"
+  }
+}

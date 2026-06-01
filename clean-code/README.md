@@ -1,24 +1,14 @@
-# Clean Code Skill Package
+# clean-code
 
-A package for applying clean-code principles during code writing, review, and refactoring.
+Package for applying clean-code principles during writing, review, and refactoring.
 
-## What's in it
-
-| File                       | What it covers                                                                            |
-| -------------------------- | ----------------------------------------------------------------------------------------- |
-| `SKILL.md`                 | Skill metadata, trigger guidance, operating rules, and when to load references            |
-| `references/principles.md` | Core clean-code principles like KISS, YAGNI, DRY, SRP, naming, and separation of concerns |
-| `references/checklist.md`  | Quick review and refactor checklist                                                       |
-
-## Installation
-
-Install the package from npm:
+## Install
 
 ```bash
 npm install clean-code-skill
 ```
 
-If you are installing from this repository locally, pack it first and install the tarball:
+If installing locally from this repo:
 
 ```bash
 cd clean-code
@@ -26,14 +16,21 @@ npm pack
 npm install ./clean-code-skill-1.0.0.tgz
 ```
 
-## Verify
+## Use
 
-Confirm the package is installed and the files are present in `node_modules/clean-code-skill`.
+Use this package when reviewing or refactoring code for readability, naming, duplication, structure, tests, or separation of concerns.
 
-## Usage
+## Package layout
 
-Use this skill when the task is about readability, maintainability, refactoring, naming, duplication, comments, boundaries, or code review feedback.
+- `SKILL.md` - metadata and core guidance
+- `references/` - principles and a review checklist
+
+## Publish
+
+1. Update the version in `package.json`.
+2. Run `npm pack`.
+3. Publish with `npm publish`.
 
 ## Thanks
 
-Thanks to the DevCom article on clean-code principles and the Nevo guide on writing AI agent skills for the source material and packaging guidance.
+Based on DevCom clean-code guidance and the Nevo skill packaging guide.
