@@ -1,0 +1,29 @@
+{
+  "name": "elasticsearch-skill",
+  "version": "1.0.0",
+  "description": "Core Elasticsearch/Kibana REST API guidance for querying, indexing, and basic ops",
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "references"
+  ],
+  "keywords": [
+    "elasticsearch",
+    "kibana",
+    "search",
+    "aggregation",
+    "devops",
+    "skill"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dharun235/ai-skills.git",
+    "directory": "elasticsearch"
+  },
+  "homepage": "https://github.com/Dharun235/ai-skills/tree/main/elasticsearch",
+  "publishConfig": {
+    "access": "public"
+  }
+}
